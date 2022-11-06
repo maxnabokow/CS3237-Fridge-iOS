@@ -9,13 +9,38 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView {
+            stockTab
+                .tabItem {
+                    Label("Stock", systemImage: "square.stack.fill")
+                }
+            shopTab
+                .tabItem {
+                    Label("At the Shop", systemImage: "cart.fill")
+                }
         }
-        .padding()
+    }
+
+    private var stockTab: some View {
+        VStack(spacing: 16) {
+            Image(systemName: "square.stack.fill")
+                .imageScale(.large)
+                .font(.largeTitle)
+                .foregroundColor(.secondary)
+            Text("No Stock")
+                .font(.title3)
+        }
+    }
+
+    private var shopTab: some View {
+        VStack(spacing: 16) {
+            Image(systemName: "cart.fill")
+                .imageScale(.large)
+                .font(.largeTitle)
+                .foregroundColor(.secondary)
+            Text("You're not at the store, dumbass.")
+                .font(.title3)
+        }
     }
 }
 
