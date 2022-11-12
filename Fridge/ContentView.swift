@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var stock: Stock?
+    @State private var predictions: [String: Prediction] = [:]
+    
     var body: some View {
         TabView {
             stockTab
@@ -22,25 +25,11 @@ struct ContentView: View {
     }
 
     private var stockTab: some View {
-        VStack(spacing: 16) {
-            Image(systemName: "square.stack.fill")
-                .imageScale(.large)
-                .font(.largeTitle)
-                .foregroundColor(.secondary)
-            Text("No Stock")
-                .font(.title3)
-        }
+        StocksView(stock: $stock, predictions: $predictions)
     }
 
     private var shopTab: some View {
-        VStack(spacing: 16) {
-            Image(systemName: "cart.fill")
-                .imageScale(.large)
-                .font(.largeTitle)
-                .foregroundColor(.secondary)
-            Text("You're not at the store, dumbass.")
-                .font(.title3)
-        }
+        AtTheStoreView(stock: $stock, predictions: $predictions)
     }
 }
 

@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA2AEBBC29178581009E9552 /* StockFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2AEBBB29178581009E9552 /* StockFetcher.swift */; };
+		EA2AEBBE291785EA009E9552 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2AEBBD291785EA009E9552 /* Stock.swift */; };
+		EA2AEBC029179671009E9552 /* StocksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2AEBBF29179671009E9552 /* StocksView.swift */; };
+		EA2AEBC229179685009E9552 /* AtTheStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2AEBC129179685009E9552 /* AtTheStoreView.swift */; };
+		EA2AEBC42917A24B009E9552 /* PredictionFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2AEBC32917A24B009E9552 /* PredictionFetcher.swift */; };
+		EA2AEBC62917A291009E9552 /* Prediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2AEBC52917A291009E9552 /* Prediction.swift */; };
+		EA2AEBC82917B882009E9552 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2AEBC72917B882009E9552 /* SettingsView.swift */; };
 		EA6DD3BB29177FDB00214330 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA6DD3BA29177FDA00214330 /* GoogleService-Info.plist */; };
 		EA6DD3BE2917816D00214330 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = EA6DD3BD2917816D00214330 /* FirebaseFirestore */; };
 		EA6DD3C02917816D00214330 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EA6DD3BF2917816D00214330 /* FirebaseFirestoreSwift */; };
@@ -17,6 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA2AEBBB29178581009E9552 /* StockFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockFetcher.swift; sourceTree = "<group>"; };
+		EA2AEBBD291785EA009E9552 /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		EA2AEBBF29179671009E9552 /* StocksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksView.swift; sourceTree = "<group>"; };
+		EA2AEBC129179685009E9552 /* AtTheStoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtTheStoreView.swift; sourceTree = "<group>"; };
+		EA2AEBC32917A24B009E9552 /* PredictionFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionFetcher.swift; sourceTree = "<group>"; };
+		EA2AEBC52917A291009E9552 /* Prediction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prediction.swift; sourceTree = "<group>"; };
+		EA2AEBC72917B882009E9552 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		EA6DD3BA29177FDA00214330 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EA7262CD28FE8C6100BC41BD /* Fridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA7262D028FE8C6100BC41BD /* FridgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeApp.swift; sourceTree = "<group>"; };
@@ -59,6 +73,13 @@
 			children = (
 				EA7262D028FE8C6100BC41BD /* FridgeApp.swift */,
 				EA7262D228FE8C6100BC41BD /* ContentView.swift */,
+				EA2AEBBD291785EA009E9552 /* Stock.swift */,
+				EA2AEBC52917A291009E9552 /* Prediction.swift */,
+				EA2AEBBB29178581009E9552 /* StockFetcher.swift */,
+				EA2AEBC32917A24B009E9552 /* PredictionFetcher.swift */,
+				EA2AEBBF29179671009E9552 /* StocksView.swift */,
+				EA2AEBC72917B882009E9552 /* SettingsView.swift */,
+				EA2AEBC129179685009E9552 /* AtTheStoreView.swift */,
 				EA7262D428FE8C6300BC41BD /* Assets.xcassets */,
 				EA6DD3BA29177FDA00214330 /* GoogleService-Info.plist */,
 				EA7262D628FE8C6300BC41BD /* Preview Content */,
@@ -153,7 +174,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA7262D328FE8C6100BC41BD /* ContentView.swift in Sources */,
+				EA2AEBBC29178581009E9552 /* StockFetcher.swift in Sources */,
+				EA2AEBBE291785EA009E9552 /* Stock.swift in Sources */,
+				EA2AEBC82917B882009E9552 /* SettingsView.swift in Sources */,
+				EA2AEBC229179685009E9552 /* AtTheStoreView.swift in Sources */,
+				EA2AEBC62917A291009E9552 /* Prediction.swift in Sources */,
+				EA2AEBC42917A24B009E9552 /* PredictionFetcher.swift in Sources */,
 				EA7262D128FE8C6100BC41BD /* FridgeApp.swift in Sources */,
+				EA2AEBC029179671009E9552 /* StocksView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,8 +316,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,8 +345,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
